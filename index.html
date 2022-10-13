@@ -12,9 +12,12 @@
 </head>
 <body>
   <div class="container">
-    <img src="./images/image-product-desktop.jpg" alt="perfume-product" id="perfume-product">
+    <picture>
+      <source media="(max-width: 650px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="Gabrielle parfum" id="perfume-product">
+    </picture>
     <div class="main-content">
-      <p id="perfume">P E R F U M E</p>
+      <p id="perfume">perfume</p>
       <h1 id="name">Gabrielle Essence Eau De Parfum</h1>
       
       <p id="detail">
@@ -27,7 +30,7 @@
       </div>
       
       
-      <button id="cart-btn"><img src="./images/icon-cart.svg" id="cart-icon">Add to cart</button>
+      <button id="cart-btn"><img src="./images/icon-cart.svg" id="cart-icon" alt="Cart icon">Add to cart</button>
     </div>
   </div>
 </body>

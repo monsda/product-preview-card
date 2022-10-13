@@ -7,10 +7,10 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-    width: 1440px;
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 
 }
 
@@ -18,6 +18,10 @@ p{
     font-size: 14px;
     font-family: Montserrat;
     color: hsl(228, 12%, 48%);
+}
+#perfume {
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 #perfume-product{
@@ -84,7 +88,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 50px;
 }
 
 #cart-btn:hover {
